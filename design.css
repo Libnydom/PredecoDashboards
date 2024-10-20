@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F7F7;
+}
+
+/* Contenedor principal que alinea los elementos en la parte superior */
+.header {
+    display: flex;
+    justify-content: space-between; /* Espacio entre el logo y el título */
+    align-items: flex-start; /* Alineación en la parte superior */
+    padding: 10px 20px; /* Espaciado alrededor */
+}
+
+.board {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap; /* Permite que las áreas se apilen en pantallas pequeñas */
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.area {
+    width: 30%;
+    min-width: 250px; /* Ancho mínimo para mantener la legibilidad */
+    margin: 10px; /* Espaciado entre áreas */
+}
+
+.departament {
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    width: 100px; /* Ancho del logo */
+    height: 80px; /* Alto del logo */
+    background-image: url('Imágenes/PredecoRojo.png'); /* Ruta del logo */
+    background-size: contain; /* Ajusta el logo al contenedor */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titlePermissions {
+    flex-grow: 1; /* Permite que el título ocupe el espacio disponible */
+    text-align: center; /* Centra el texto */
+    margin-top: 25px;
+}
+
+.titlePermissions h1 {
+    color: #D8262E; /* Rojo 1 */
+    margin-bottom: 20px;
+}
+
+.area h2 {
+    font-size: 1.5em;
+    color: #D8262E; /* Rojo 1 */
+    border-bottom: 1px solid #D8262E; /* Línea debajo del título */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.departament h3 {
+    font-size: 1.2em;
+    color: #BB4246; /* Rojo 3 */
+    margin-bottom: 10px;
+}
+
+.button {
+    display: block;
+    background-color: #696969; /* Gris 2 */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s; /* Efectos de transición */
+}
+
+.button-varios{
+    display: block;
+    background-color: #696969; /* Gris 2 */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s; /* Efectos de transición */
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #BB4246; /* Rojo 3 */
+    transform: translateY(-2px); /* Efecto de desplazamiento al pasar el mouse */
+}
+
+.button-varios:hover {
+    background-color: #BB4246; /* Rojo 3 */
+    transform: translateY(-2px); /* Efecto de desplazamiento al pasar el mouse */
+}
+
+

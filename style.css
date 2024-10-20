@@ -1,0 +1,76 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E2E2E2; /*  */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alinea verticalmente logo y formulario */
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #FFFFFF; /* Color del login del cuadro*/
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px; /* Espacio entre el logo y el formulario */
+}
+
+h2 {
+    color: #D8262E; /* Color rojo fuerte */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #3B3B3B; /* Color de las letras en el cuadro de login */
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #DB5257; /* Bordes rojos en el cuadro de logi*/
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #D8262E; /* Botón rojo fuerte */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #BB4246; /* Un poco más oscuro en hover, es cuando paso el cursos */
+}
+
+p {
+    color: #696969; /* Texto de ayuda en gris */
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+/* Logo container */
+.logo-container {
+    background-image: url('Imágenes/logo.png'); /* Agrega la ruta de tu logo */
+    background-size: contain; /* Ajusta el logo al contenedor */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px; /* Espacio entre el logo y el formulario */
+}
